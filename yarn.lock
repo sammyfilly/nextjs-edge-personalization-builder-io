@@ -508,24 +508,24 @@
   dependencies:
     json-stringify-deterministic "^1.0.6"
 
-"@builder.io/react@^2.0.9":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@builder.io/react/-/react-2.0.9.tgz#58a87784e548b4586258445380e11eb6c7ee655e"
-  integrity sha512-Prj/sK3/vBaqR77V9PNQqzHQfZbj9a3RklI6qAbuDZJMT+gjgsnpuzPzHdmsvS7y3+QtapbxCI1++tnsYj5yIA==
+"@builder.io/react@^3.0.0":
+  version "3.0.13"
+  resolved "https://registry.yarnpkg.com/@builder.io/react/-/react-3.0.13.tgz#49c1865c72bda29949bb98ca32789baefbbbca63"
+  integrity sha512-6Oi/O8Xv8sGyyjz2j4Fh5oa/vjKVxhE/rFsAT3UY595VxQgbYB4aa2HKHqWkiLkMmAAXqNvBG2YUleWdOsEmEg==
   dependencies:
-    "@builder.io/sdk" "^1.1.30"
+    "@builder.io/sdk" "2.0.7"
     "@emotion/core" "^10.0.17"
     hash-sum "^2.0.0"
+    isolated-vm "^4.5.0"
     preact "^10.1.0"
-    vm2 "^3.9.10"
   optionalDependencies:
     node-fetch "^2.6.1"
     prop-types "^15.7.2"
 
-"@builder.io/sdk@^1.1.30":
-  version "1.1.30"
-  resolved "https://registry.yarnpkg.com/@builder.io/sdk/-/sdk-1.1.30.tgz#25718d3685624677fe61ffc4642923392afed5a6"
-  integrity sha512-HS5TSs/r7DsDFYaMQ8poXcMD/1jFjgrxulf1Ai/1y494QlxNyhQKQSZyhYJe2B+C2nZJTPfJjEFQMDSlACeoLA==
+"@builder.io/sdk@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@builder.io/sdk/-/sdk-2.0.7.tgz#74639c1b6c99f2fd94ad6ca9659944aecd8feb1f"
+  integrity sha512-lqvz0Q5zqOQxjXmGCPsk5V8rLrvwplCfYvoY8jhPFJpi95C8zgMTEvJ6rYOhwZiCJhmWUVIbLkgHHGPKmSQYAA==
   dependencies:
     hash-sum "^2.0.0"
     node-fetch "^2.3.0"
@@ -2188,7 +2188,7 @@ acorn-walk@^7.0.0:
   resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-7.2.0.tgz#0de889a601203909b0fbe07b8938dc21d2e967bc"
   integrity sha512-OPdCF6GsMIP+Az+aWfAAOEt2/+iVDKE7oy6lJ098aoe59oAmK76qV6Gw60SbZ8jHuG2wH058GF4pLFbYamYrVA==
 
-acorn-walk@^8.0.0, acorn-walk@^8.2.0:
+acorn-walk@^8.0.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-8.2.0.tgz#741210f2e2426454508853a2f44d0ab83b7f69c1"
   integrity sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==
@@ -2202,11 +2202,6 @@ acorn@^8.0.4, acorn@^8.7.1:
   version "8.7.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.7.1.tgz#0197122c843d1bf6d0a5e83220a788f278f63c30"
   integrity sha512-Xx54uLJQZ19lKygFXOWsscKUbsBZW0CPykPhVQdhIeIwrbPmJzqeASDInc8nKBnp/JT6igTs82qPXz069H8I/A==
-
-acorn@^8.7.0:
-  version "8.8.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.0.tgz#88c0187620435c7f6015803f5539dae05a9dbea8"
-  integrity sha512-QOxyigPVrpZ2GXT+PFyZTl6TtOFc5egxHIP9IlQ+RbupQuX4RkT/Bee4/kQuC02Xkzg84JcT7oLYtDIQxp+v7w==
 
 agent-base@6, agent-base@^6.0.2:
   version "6.0.2"
@@ -5635,6 +5630,13 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==
+
+isolated-vm@^4.5.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/isolated-vm/-/isolated-vm-4.6.0.tgz#41a487c1aeeca2a3930ab520029db3b06c6c45aa"
+  integrity sha512-MEnfC/54q5PED3VJ9UJYJPOlU6mYFHS3ivR9E8yeNNBEFRFUNBnY0xO4Rj3D/SOtFKPNmsQp9NWUYSKZqAoZiA==
+  dependencies:
+    prebuild-install "^7.1.1"
 
 isomorphic-fetch@3.0.0, isomorphic-fetch@^3.0.0:
   version "3.0.0"
@@ -9111,14 +9113,6 @@ value-or-promise@1.0.11, value-or-promise@^1.0.11:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/value-or-promise/-/value-or-promise-1.0.11.tgz#3e90299af31dd014fe843fe309cefa7c1d94b140"
   integrity sha512-41BrgH+dIbCFXClcSapVs5M6GkENd3gQOJpEfPDNa71LsUGMXDL0jMWpI/Rh7WhX+Aalfz2TTS3Zt5pUsbnhLg==
-
-vm2@^3.9.10:
-  version "3.9.11"
-  resolved "https://registry.yarnpkg.com/vm2/-/vm2-3.9.11.tgz#a880f510a606481719ec3f9803b940c5805a06fe"
-  integrity sha512-PFG8iJRSjvvBdisowQ7iVF580DXb1uCIiGaXgm7tynMR1uTBlv7UJlB1zdv5KJ+Tmq1f0Upnj3fayoEOPpCBKg==
-  dependencies:
-    acorn "^8.7.0"
-    acorn-walk "^8.2.0"
 
 watchpack@2.4.0:
   version "2.4.0"
