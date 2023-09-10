@@ -1,0 +1,4 @@
+name : cd turbo builder command 
+  job : next.js run command
+   echo: Command "cd .. && turbo run build --filter={site}
+     await : get results saved and deploy to @vercel or @netlify
