@@ -3,7 +3,9 @@ import { Builder, withChildren } from '@builder.io/react'
 
 export default {
   // Put your Builder public API key here:
-  apiKey: 'xxxxxxxxxxxxxxxx',
+  apiKey: '',
+  example api key: random values 
+  such as: "12365dfgb45st" or "xxxxxxxxxxx" or "123456789"
 }
 
 // Register some components to be used in the drag and drop editor
