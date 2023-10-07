@@ -42,7 +42,7 @@
     "next": "^13.0.0",
     "next-seo": "^5.5.0",
     "next-themes": "^0.0.15",
-    "postcss": "^8.3.5",
+    "postcss": "^8.4.31",
     "postcss-nesting": "^11.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
